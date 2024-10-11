@@ -1,0 +1,32 @@
+{
+  "ModId": "mrfpc.modloader",
+  "ModName": "Metaphor Essentials",
+  "ModAuthor": "DeathChaos",
+  "ModVersion": "1.0.0",
+  "ModDescription": "Mod which provides base modding support as well as miscellaneous basic quality of life fixes. See readme for Special Thanks!",
+  "ModDll": "mrfpc.modloader.dll",
+  "ModIcon": "Preview.png",
+  "ModR2RManagedDll32": "x86/mrfpc.modloader.dll",
+  "ModR2RManagedDll64": "x64/mrfpc.modloader.dll",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "IsLibrary": false,
+  "ReleaseMetadataFileName": "mrfpc.modloader.ReleaseMetadata.json",
+  "PluginData": {
+    "GitHubRelease": {
+      "UserName": "DeathChaos25",
+      "RepositoryName": "mrfpc.modloader",
+      "UseReleaseTag": true,
+      "AssetFileName": "Mod.zip"
+    }
+  },
+  "IsUniversalMod": false,
+  "ModDependencies": [
+    "reloaded.sharedlib.hooks",
+    "Reloaded.Memory.SigScan.ReloadedII",
+    "crifs.v2.hook"
+  ],
+  "OptionalDependencies": [],
+  "SupportedAppId": [ "metaphor.exe" ],
+  "ProjectUrl": ""
+}
