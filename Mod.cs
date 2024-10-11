@@ -100,7 +100,7 @@ public partial class Mod : ModBase // <= Do not Remove.
                 _logger.Error("Unable to load CriFS V2 Library Hooks!");
                 return;
             }
-            else criFsApi.AddProbingPath("MFEssentials");
+            else criFsApi.AddProbingPath("MFEssentials/CPK");
 
             _criFsApi.AddBindCallback(OnBindMFR);
             // Metaphor ReFantazio only has 1 CPK
