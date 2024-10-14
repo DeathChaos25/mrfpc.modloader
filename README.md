@@ -18,7 +18,6 @@ For more information, [please visit the Persona Essentials documentation](https:
 # Features (for Modders)
 
 - Support for replacing CPK file contents via other mods.  
-- Support for injecting custom music into the game without extracting files.  
 - Support for hot reload (update files on the fly without game reboot).  
 - Automatically merges .tbl files.
 - More merging TBD.
