@@ -43,8 +43,6 @@ internal class TblPatcherCommon
     /// <param name="segments">A list of the data of each segment. segments[segment] will be replaced with the patched segment data.</param>
     internal static unsafe void ApplyPatch(List<TblPatch> patches, int segment, Memory<byte>[] segments)
     {
-        patches.Sort((a, b) => a.SegmentDiffs[x].LengthAfterPatch.CompareTo(b.SegmentDiffs[x].LengthAfterPatch));
-
         int newLength = 0;
 
         foreach (var patch in CollectionsMarshal.AsSpan(patches))
